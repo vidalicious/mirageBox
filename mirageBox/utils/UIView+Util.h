@@ -1,5 +1,5 @@
 //
-//  Pop&MaskViewController.h
+//  UIView+Util.h
 //  mirageBox
 //
 //  Created by vidalicious on 12/8/15.
@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "config.h"
 
-@interface Pop_MaskViewController : UIViewController
+@interface UIView (Util)
+
++ (instancetype)loadFromNib;
 
 @end

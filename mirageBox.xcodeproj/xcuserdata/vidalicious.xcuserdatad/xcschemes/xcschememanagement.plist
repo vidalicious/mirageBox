@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MBBundle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>mirageBox.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>BC0279AD1C15650A0072ED91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC8C657B1C16DC6400CBE788</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC8C65901C16F87600CBE788</key>
 		<dict>
 			<key>primary</key>
 			<true/>

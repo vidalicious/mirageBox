@@ -9,18 +9,21 @@
 /* Begin PBXBuildFile section */
 		BC02798C1C15650A0072ED91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02798B1C15650A0072ED91 /* main.m */; };
 		BC02798F1C15650A0072ED91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02798E1C15650A0072ED91 /* AppDelegate.m */; };
-		BC0279951C15650A0072ED91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0279931C15650A0072ED91 /* Main.storyboard */; };
 		BC0279981C15650A0072ED91 /* mirageBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC0279961C15650A0072ED91 /* mirageBox.xcdatamodeld */; };
 		BC02799A1C15650A0072ED91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0279991C15650A0072ED91 /* Assets.xcassets */; };
 		BC02799D1C15650A0072ED91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC02799B1C15650A0072ED91 /* LaunchScreen.storyboard */; };
 		BC0279A81C15650A0072ED91 /* mirageBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0279A71C15650A0072ED91 /* mirageBoxTests.m */; };
 		BC0279B31C15650A0072ED91 /* mirageBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0279B21C15650A0072ED91 /* mirageBoxUITests.m */; };
 		BC0279E11C156F4B0072ED91 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0279DF1C156F4B0072ED91 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BC0279E21C156F4B0072ED91 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0279E01C156F4B0072ED91 /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		BC027A291C15AAC00072ED91 /* BezierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC027A261C15AAC00072ED91 /* BezierViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		BC027A2A1C15AAC00072ED91 /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC027A281C15AAC00072ED91 /* BezierViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BCEE5D621C16BD45002F6750 /* Pop&MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE5D601C16BD45002F6750 /* Pop&MaskViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BCEE5D631C16BD45002F6750 /* Pop&MaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEE5D611C16BD45002F6750 /* Pop&MaskViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BC8C65871C16DE8A00CBE788 /* MBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8C65861C16DE8A00CBE788 /* MBUtils.m */; settings = {ASSET_TAGS = (); }; };
+		BC8C65A21C170B9F00CBE788 /* PopMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8C65A11C170B9F00CBE788 /* PopMaskView.m */; settings = {ASSET_TAGS = (); }; };
+		BC8C65A61C17133100CBE788 /* PopMaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8C65A31C170BB800CBE788 /* PopMaskView.xib */; settings = {ASSET_TAGS = (); }; };
+		BC8C65A71C1714AA00CBE788 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0279E01C156F4B0072ED91 /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BC8C65A81C1714B000CBE788 /* BezierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC027A261C15AAC00072ED91 /* BezierViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BC8C65A91C1714B500CBE788 /* PopMaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEE5D931C16CF42002F6750 /* PopMaskViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BCEE5D8F1C16CBFB002F6750 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE5D8E1C16CBFB002F6750 /* UIView+Util.m */; settings = {ASSET_TAGS = (); }; };
+		BCEE5D941C16CF42002F6750 /* PopMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE5D921C16CF42002F6750 /* PopMaskViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,6 @@
 		BC02798B1C15650A0072ED91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC02798D1C15650A0072ED91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC02798E1C15650A0072ED91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC0279941C15650A0072ED91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC0279971C15650A0072ED91 /* mirageBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mirageBox.xcdatamodel; sourceTree = "<group>"; };
 		BC0279991C15650A0072ED91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC02799C1C15650A0072ED91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,10 +64,18 @@
 		BC027A261C15AAC00072ED91 /* BezierViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BezierViewController.xib; path = static/BezierViewController.xib; sourceTree = "<group>"; };
 		BC027A271C15AAC00072ED91 /* BezierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierViewController.h; path = static/BezierViewController.h; sourceTree = "<group>"; };
 		BC027A281C15AAC00072ED91 /* BezierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BezierViewController.m; path = static/BezierViewController.m; sourceTree = "<group>"; };
+		BC8C65851C16DE8A00CBE788 /* MBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBUtils.h; path = utils/MBUtils.h; sourceTree = "<group>"; };
+		BC8C65861C16DE8A00CBE788 /* MBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBUtils.m; path = utils/MBUtils.m; sourceTree = "<group>"; };
+		BC8C65A01C170B9F00CBE788 /* PopMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopMaskView.h; path = "recycle code/PopMaskView.h"; sourceTree = "<group>"; };
+		BC8C65A11C170B9F00CBE788 /* PopMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopMaskView.m; path = "recycle code/PopMaskView.m"; sourceTree = "<group>"; };
+		BC8C65A31C170BB800CBE788 /* PopMaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopMaskView.xib; path = "recycle code/PopMaskView.xib"; sourceTree = "<group>"; };
 		BCEE5D351C168794002F6750 /* MBDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBDefine.h; sourceTree = "<group>"; };
-		BCEE5D5F1C16BD45002F6750 /* Pop&MaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Pop&MaskViewController.h"; path = "recycle code/Pop&MaskViewController.h"; sourceTree = "<group>"; };
-		BCEE5D601C16BD45002F6750 /* Pop&MaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Pop&MaskViewController.m"; path = "recycle code/Pop&MaskViewController.m"; sourceTree = "<group>"; };
-		BCEE5D611C16BD45002F6750 /* Pop&MaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Pop&MaskViewController.xib"; path = "recycle code/Pop&MaskViewController.xib"; sourceTree = "<group>"; };
+		BCEE5D8D1C16CBFB002F6750 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Util.h"; path = "utils/UIView+Util.h"; sourceTree = "<group>"; };
+		BCEE5D8E1C16CBFB002F6750 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Util.m"; path = "utils/UIView+Util.m"; sourceTree = "<group>"; };
+		BCEE5D901C16CC8C002F6750 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		BCEE5D911C16CF42002F6750 /* PopMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopMaskViewController.h; path = "recycle code/PopMaskViewController.h"; sourceTree = "<group>"; };
+		BCEE5D921C16CF42002F6750 /* PopMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopMaskViewController.m; path = "recycle code/PopMaskViewController.m"; sourceTree = "<group>"; };
+		BCEE5D931C16CF42002F6750 /* PopMaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopMaskViewController.xib; path = "recycle code/PopMaskViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,16 +126,17 @@
 		BC0279891C15650A0072ED91 /* mirageBox */ = {
 			isa = PBXGroup;
 			children = (
+				BCEE5D901C16CC8C002F6750 /* config.h */,
 				BCEE5D351C168794002F6750 /* MBDefine.h */,
 				BC02798D1C15650A0072ED91 /* AppDelegate.h */,
 				BC02798E1C15650A0072ED91 /* AppDelegate.m */,
 				BC0279DE1C156F4B0072ED91 /* RootViewController.h */,
 				BC0279DF1C156F4B0072ED91 /* RootViewController.m */,
 				BC0279E01C156F4B0072ED91 /* RootViewController.xib */,
+				BCEE5D8C1C16CB1A002F6750 /* utils */,
 				BC027A241C15902F0072ED91 /* static */,
 				BC027A251C15A77A0072ED91 /* dynamic */,
 				BCEE5D5E1C16BC7D002F6750 /* recycle code */,
-				BC0279931C15650A0072ED91 /* Main.storyboard */,
 				BC0279991C15650A0072ED91 /* Assets.xcassets */,
 				BC02799B1C15650A0072ED91 /* LaunchScreen.storyboard */,
 				BC02799E1C15650A0072ED91 /* Info.plist */,
@@ -181,11 +192,25 @@
 		BCEE5D5E1C16BC7D002F6750 /* recycle code */ = {
 			isa = PBXGroup;
 			children = (
-				BCEE5D5F1C16BD45002F6750 /* Pop&MaskViewController.h */,
-				BCEE5D601C16BD45002F6750 /* Pop&MaskViewController.m */,
-				BCEE5D611C16BD45002F6750 /* Pop&MaskViewController.xib */,
+				BCEE5D911C16CF42002F6750 /* PopMaskViewController.h */,
+				BCEE5D921C16CF42002F6750 /* PopMaskViewController.m */,
+				BCEE5D931C16CF42002F6750 /* PopMaskViewController.xib */,
+				BC8C65A01C170B9F00CBE788 /* PopMaskView.h */,
+				BC8C65A11C170B9F00CBE788 /* PopMaskView.m */,
+				BC8C65A31C170BB800CBE788 /* PopMaskView.xib */,
 			);
 			name = "recycle code";
+			sourceTree = "<group>";
+		};
+		BCEE5D8C1C16CB1A002F6750 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE5D8D1C16CBFB002F6750 /* UIView+Util.h */,
+				BCEE5D8E1C16CBFB002F6750 /* UIView+Util.m */,
+				BC8C65851C16DE8A00CBE788 /* MBUtils.h */,
+				BC8C65861C16DE8A00CBE788 /* MBUtils.m */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,11 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC02799D1C15650A0072ED91 /* LaunchScreen.storyboard in Resources */,
+				BC8C65A61C17133100CBE788 /* PopMaskView.xib in Resources */,
+				BC8C65A91C1714B500CBE788 /* PopMaskViewController.xib in Resources */,
+				BC8C65A71C1714AA00CBE788 /* RootViewController.xib in Resources */,
+				BC8C65A81C1714B000CBE788 /* BezierViewController.xib in Resources */,
 				BC02799A1C15650A0072ED91 /* Assets.xcassets in Resources */,
-				BC0279E21C156F4B0072ED91 /* RootViewController.xib in Resources */,
-				BCEE5D631C16BD45002F6750 /* Pop&MaskViewController.xib in Resources */,
-				BC027A291C15AAC00072ED91 /* BezierViewController.xib in Resources */,
-				BC0279951C15650A0072ED91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +347,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC027A2A1C15AAC00072ED91 /* BezierViewController.m in Sources */,
-				BCEE5D621C16BD45002F6750 /* Pop&MaskViewController.m in Sources */,
+				BCEE5D8F1C16CBFB002F6750 /* UIView+Util.m in Sources */,
 				BC0279981C15650A0072ED91 /* mirageBox.xcdatamodeld in Sources */,
+				BC8C65A21C170B9F00CBE788 /* PopMaskView.m in Sources */,
+				BCEE5D941C16CF42002F6750 /* PopMaskViewController.m in Sources */,
+				BC8C65871C16DE8A00CBE788 /* MBUtils.m in Sources */,
 				BC02798F1C15650A0072ED91 /* AppDelegate.m in Sources */,
 				BC02798C1C15650A0072ED91 /* main.m in Sources */,
 				BC0279E11C156F4B0072ED91 /* RootViewController.m in Sources */,
@@ -362,14 +390,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC0279931C15650A0072ED91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC0279941C15650A0072ED91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC02799B1C15650A0072ED91 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -467,8 +487,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = mirageBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = vidalicious.mirageBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -479,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mirageBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vidalicious.mirageBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";

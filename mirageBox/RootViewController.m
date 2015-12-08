@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "BezierViewController.h"
+#import "PopMaskViewController.h"
 
 static NSString *tableViewCellIdentifier = @"tableViewCells";
 
@@ -15,6 +16,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 
 @property (weak, nonatomic) IBOutlet UITableView *pTableView;
 @property (nonatomic, strong) BezierViewController *bezierViewControlller;
+@property (nonatomic, strong) PopMaskViewController *popMaskViewController;
 
 @end
 
@@ -54,12 +56,33 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 
-    return 2;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return 2;
+    switch (section) {
+            
+        case 0:
+            
+            return 1;
+            break;
+        
+        case 1:
+            
+            return 0;
+            break;
+            
+        case 2:
+            
+            return 1;
+            break;
+        
+        default:
+            break;
+    }
+    
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -74,13 +97,16 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
     
     switch (indexPathCode) {
         
-        case 0000: {
+        case 0: {
         
             label.text = @"Bezier";
         }
             break;
             
-        case 1:
+        case 200: {
+        
+            label.text = @"Pop & Mask";
+        }
             
             break;
             
@@ -135,7 +161,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
     
     switch (indexPathCode) {
             
-        case 0000: {
+        case 0: {
             
             if (!self.bezierViewControlller) {
                 
@@ -143,6 +169,17 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
             }
             
             [self.navigationController pushViewController:self.bezierViewControlller animated:YES];
+        }
+            break;
+        
+        case 200: {
+        
+            if (!self.popMaskViewController) {
+            
+                self.popMaskViewController = [PopMaskViewController new];
+            }
+            
+            [self.navigationController pushViewController:self.popMaskViewController animated:YES];
         }
             break;
             

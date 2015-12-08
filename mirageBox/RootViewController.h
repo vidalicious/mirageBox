@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MBDefine.h"
+#import "config.h"
 
 @interface RootViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
