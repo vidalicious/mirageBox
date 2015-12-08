@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  mirageBox
 //
 //  Created by vidalicious on 12/7/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBDefine.h"
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
 @end
-

@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		BC02798C1C15650A0072ED91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02798B1C15650A0072ED91 /* main.m */; };
 		BC02798F1C15650A0072ED91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02798E1C15650A0072ED91 /* AppDelegate.m */; };
-		BC0279921C15650A0072ED91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0279911C15650A0072ED91 /* ViewController.m */; };
 		BC0279951C15650A0072ED91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0279931C15650A0072ED91 /* Main.storyboard */; };
 		BC0279981C15650A0072ED91 /* mirageBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC0279961C15650A0072ED91 /* mirageBox.xcdatamodeld */; };
 		BC02799A1C15650A0072ED91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0279991C15650A0072ED91 /* Assets.xcassets */; };
 		BC02799D1C15650A0072ED91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC02799B1C15650A0072ED91 /* LaunchScreen.storyboard */; };
 		BC0279A81C15650A0072ED91 /* mirageBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0279A71C15650A0072ED91 /* mirageBoxTests.m */; };
 		BC0279B31C15650A0072ED91 /* mirageBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0279B21C15650A0072ED91 /* mirageBoxUITests.m */; };
+		BC0279E11C156F4B0072ED91 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0279DF1C156F4B0072ED91 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC0279E21C156F4B0072ED91 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0279E01C156F4B0072ED91 /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BC027A291C15AAC00072ED91 /* BezierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC027A261C15AAC00072ED91 /* BezierViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BC027A2A1C15AAC00072ED91 /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC027A281C15AAC00072ED91 /* BezierViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCEE5D621C16BD45002F6750 /* Pop&MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE5D601C16BD45002F6750 /* Pop&MaskViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCEE5D631C16BD45002F6750 /* Pop&MaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEE5D611C16BD45002F6750 /* Pop&MaskViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +45,6 @@
 		BC02798B1C15650A0072ED91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC02798D1C15650A0072ED91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC02798E1C15650A0072ED91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC0279901C15650A0072ED91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC0279911C15650A0072ED91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BC0279941C15650A0072ED91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC0279971C15650A0072ED91 /* mirageBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mirageBox.xcdatamodel; sourceTree = "<group>"; };
 		BC0279991C15650A0072ED91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +56,16 @@
 		BC0279AE1C15650A0072ED91 /* mirageBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mirageBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0279B21C15650A0072ED91 /* mirageBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mirageBoxUITests.m; sourceTree = "<group>"; };
 		BC0279B41C15650A0072ED91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0279DE1C156F4B0072ED91 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BC0279DF1C156F4B0072ED91 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BC0279E01C156F4B0072ED91 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		BC027A261C15AAC00072ED91 /* BezierViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BezierViewController.xib; path = static/BezierViewController.xib; sourceTree = "<group>"; };
+		BC027A271C15AAC00072ED91 /* BezierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierViewController.h; path = static/BezierViewController.h; sourceTree = "<group>"; };
+		BC027A281C15AAC00072ED91 /* BezierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BezierViewController.m; path = static/BezierViewController.m; sourceTree = "<group>"; };
+		BCEE5D351C168794002F6750 /* MBDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBDefine.h; sourceTree = "<group>"; };
+		BCEE5D5F1C16BD45002F6750 /* Pop&MaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Pop&MaskViewController.h"; path = "recycle code/Pop&MaskViewController.h"; sourceTree = "<group>"; };
+		BCEE5D601C16BD45002F6750 /* Pop&MaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Pop&MaskViewController.m"; path = "recycle code/Pop&MaskViewController.m"; sourceTree = "<group>"; };
+		BCEE5D611C16BD45002F6750 /* Pop&MaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Pop&MaskViewController.xib"; path = "recycle code/Pop&MaskViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +116,15 @@
 		BC0279891C15650A0072ED91 /* mirageBox */ = {
 			isa = PBXGroup;
 			children = (
+				BCEE5D351C168794002F6750 /* MBDefine.h */,
 				BC02798D1C15650A0072ED91 /* AppDelegate.h */,
 				BC02798E1C15650A0072ED91 /* AppDelegate.m */,
-				BC0279901C15650A0072ED91 /* ViewController.h */,
-				BC0279911C15650A0072ED91 /* ViewController.m */,
+				BC0279DE1C156F4B0072ED91 /* RootViewController.h */,
+				BC0279DF1C156F4B0072ED91 /* RootViewController.m */,
+				BC0279E01C156F4B0072ED91 /* RootViewController.xib */,
+				BC027A241C15902F0072ED91 /* static */,
+				BC027A251C15A77A0072ED91 /* dynamic */,
+				BCEE5D5E1C16BC7D002F6750 /* recycle code */,
 				BC0279931C15650A0072ED91 /* Main.storyboard */,
 				BC0279991C15650A0072ED91 /* Assets.xcassets */,
 				BC02799B1C15650A0072ED91 /* LaunchScreen.storyboard */,
@@ -141,6 +159,33 @@
 				BC0279B41C15650A0072ED91 /* Info.plist */,
 			);
 			path = mirageBoxUITests;
+			sourceTree = "<group>";
+		};
+		BC027A241C15902F0072ED91 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				BC027A271C15AAC00072ED91 /* BezierViewController.h */,
+				BC027A281C15AAC00072ED91 /* BezierViewController.m */,
+				BC027A261C15AAC00072ED91 /* BezierViewController.xib */,
+			);
+			name = static;
+			sourceTree = "<group>";
+		};
+		BC027A251C15A77A0072ED91 /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = dynamic;
+			sourceTree = "<group>";
+		};
+		BCEE5D5E1C16BC7D002F6750 /* recycle code */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE5D5F1C16BD45002F6750 /* Pop&MaskViewController.h */,
+				BCEE5D601C16BD45002F6750 /* Pop&MaskViewController.m */,
+				BCEE5D611C16BD45002F6750 /* Pop&MaskViewController.xib */,
+			);
+			name = "recycle code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +293,9 @@
 			files = (
 				BC02799D1C15650A0072ED91 /* LaunchScreen.storyboard in Resources */,
 				BC02799A1C15650A0072ED91 /* Assets.xcassets in Resources */,
+				BC0279E21C156F4B0072ED91 /* RootViewController.xib in Resources */,
+				BCEE5D631C16BD45002F6750 /* Pop&MaskViewController.xib in Resources */,
+				BC027A291C15AAC00072ED91 /* BezierViewController.xib in Resources */,
 				BC0279951C15650A0072ED91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,10 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC027A2A1C15AAC00072ED91 /* BezierViewController.m in Sources */,
+				BCEE5D621C16BD45002F6750 /* Pop&MaskViewController.m in Sources */,
 				BC0279981C15650A0072ED91 /* mirageBox.xcdatamodeld in Sources */,
-				BC0279921C15650A0072ED91 /* ViewController.m in Sources */,
 				BC02798F1C15650A0072ED91 /* AppDelegate.m in Sources */,
 				BC02798C1C15650A0072ED91 /* main.m in Sources */,
+				BC0279E11C156F4B0072ED91 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +552,7 @@
 				BC0279B91C15650A0072ED91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC0279BA1C15650A0072ED91 /* Build configuration list for PBXNativeTarget "mirageBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +561,7 @@
 				BC0279BC1C15650A0072ED91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC0279BD1C15650A0072ED91 /* Build configuration list for PBXNativeTarget "mirageBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +570,7 @@
 				BC0279BF1C15650A0072ED91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
