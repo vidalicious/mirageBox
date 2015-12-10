@@ -21,6 +21,7 @@
     
     [super viewDidLoad];
     self.popMaskView = [PopMaskView loadFromNib];
+    self.navigationItem.title = @"Pop & Mask";
 }
 
 - (void)didReceiveMemoryWarning {

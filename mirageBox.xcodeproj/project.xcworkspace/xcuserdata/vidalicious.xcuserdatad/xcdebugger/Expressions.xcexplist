@@ -12,6 +12,14 @@
          contextName = "-[RootViewController init]:RootViewController.m">
       </ContextState>
       <ContextState
+         contextName = "-[PopMaskView showPopMaskView]:PopMaskView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.popView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "__19+[MBUtils MBBundle]_block_invoke:MBUtils.m">
       </ContextState>
    </ContextStates>

@@ -17,6 +17,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 @property (weak, nonatomic) IBOutlet UITableView *pTableView;
 @property (nonatomic, strong) BezierViewController *bezierViewControlller;
 @property (nonatomic, strong) PopMaskViewController *popMaskViewController;
+@property (nonatomic, strong) RCTRootView *reactViewController;
 
 @end
 
@@ -56,7 +57,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 
-    return 3;
+    return 4;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -70,10 +71,15 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
         
         case 1:
             
-            return 0;
+            return 1;
             break;
             
         case 2:
+            
+            return 1;
+            break;
+            
+        case 3:
             
             return 1;
             break;
@@ -103,13 +109,24 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
         }
             break;
             
+        case 100: {
+        
+            label.text = @"hello animate";
+        }
+            break;
+            
         case 200: {
+        
+            label.text = @"go React-Native";
+        }
+            break;
+        
+        case 300: {
         
             label.text = @"Pop & Mask";
         }
-            
             break;
-            
+        
         default:
             break;
     }
@@ -138,9 +155,14 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
             
         case 2:
             
-            titleLabel.text = @"RECYCLE FRAME";
+            titleLabel.text = @"REACT-NATIVE";
             break;
         
+        case 3:
+            
+            titleLabel.text = @"RECYCLE FRAME";
+            break;
+            
         default:
             break;
     }
@@ -173,6 +195,20 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
             break;
         
         case 200: {
+                
+            NSURL *jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/mirageBox/reactNative/index.ios.bundle?platform=ios&dev=true"];
+            RCTRootView *reactView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                                   moduleName:@"testReactNative"
+                                                            initialProperties:nil
+                                                                launchOptions:nil];
+            UIViewController *viewController = [UIViewController new];
+            viewController.view = reactView;
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+        }
+            break;
+            
+        case 300: {
         
             if (!self.popMaskViewController) {
             

@@ -12,5 +12,6 @@
 #import "MBDefine.h"
 #import "UIView+Util.h"
 #import "MBUtils.h"
+#import "RCTRootView.h"
 
 #endif /* config_h */
