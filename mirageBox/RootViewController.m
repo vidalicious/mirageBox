@@ -138,7 +138,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 
     UILabel* titleLabel = [UILabel new];
     titleLabel.textColor = [UIColor whiteColor];
-    titleLabel.backgroundColor = colorHex(0xfc8230);
+    titleLabel.backgroundColor = colorHex(0x099fde);
     titleLabel.textAlignment = NSTextAlignmentCenter;
     
     switch (section) {
@@ -196,7 +196,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
         
         case 200: {
                 
-            NSURL *jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/mirageBox/reactNative/index.ios.bundle?platform=ios&dev=true"];
+            NSURL *jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/mirageBox/reactNative/js/index.ios.bundle?platform=ios&dev=true"];
             RCTRootView *reactView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                                    moduleName:@"testReactNative"
                                                             initialProperties:nil

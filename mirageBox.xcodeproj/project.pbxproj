@@ -22,6 +22,9 @@
 		BC8C65A71C1714AA00CBE788 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0279E01C156F4B0072ED91 /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		BC8C65A81C1714B000CBE788 /* BezierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC027A261C15AAC00072ED91 /* BezierViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		BC8C65A91C1714B500CBE788 /* PopMaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEE5D931C16CF42002F6750 /* PopMaskViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BCA88C571C19688800470A28 /* TestViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA88C561C19688800470A28 /* TestViewManager.m */; settings = {ASSET_TAGS = (); }; };
+		BCA88C5A1C196A2F00470A28 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA88C591C196A2F00470A28 /* TestView.m */; settings = {ASSET_TAGS = (); }; };
+		BCA88C5C1C196A4000470A28 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA88C5B1C196A4000470A28 /* TestView.xib */; settings = {ASSET_TAGS = (); }; };
 		BCE95FD61C18398E00AC9899 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE95F351C17F4E600AC9899 /* libRCTActionSheet.a */; };
 		BCE95FD71C18398E00AC9899 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE95F3F1C17F59F00AC9899 /* libRCTGeolocation.a */; };
 		BCE95FD81C18398E00AC9899 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE95F4B1C17F5F900AC9899 /* libRCTImage.a */; };
@@ -212,6 +215,11 @@
 		BC8C65A01C170B9F00CBE788 /* PopMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopMaskView.h; path = "recycle code/PopMaskView.h"; sourceTree = "<group>"; };
 		BC8C65A11C170B9F00CBE788 /* PopMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopMaskView.m; path = "recycle code/PopMaskView.m"; sourceTree = "<group>"; };
 		BC8C65A31C170BB800CBE788 /* PopMaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopMaskView.xib; path = "recycle code/PopMaskView.xib"; sourceTree = "<group>"; };
+		BCA88C551C19688800470A28 /* TestViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewManager.h; path = reactNative/TestViewManager.h; sourceTree = "<group>"; };
+		BCA88C561C19688800470A28 /* TestViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewManager.m; path = reactNative/TestViewManager.m; sourceTree = "<group>"; };
+		BCA88C581C196A2F00470A28 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = reactNative/TestView.h; sourceTree = "<group>"; };
+		BCA88C591C196A2F00470A28 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestView.m; path = reactNative/TestView.m; sourceTree = "<group>"; };
+		BCA88C5B1C196A4000470A28 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = reactNative/TestView.xib; sourceTree = "<group>"; };
 		BCE95F2A1C17F46B00AC9899 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		BCE95F301C17F4E600AC9899 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
 		BCE95F3A1C17F59F00AC9899 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
@@ -454,6 +462,11 @@
 		BCE95F9A1C17F9FD00AC9899 /* react native */ = {
 			isa = PBXGroup;
 			children = (
+				BCA88C551C19688800470A28 /* TestViewManager.h */,
+				BCA88C561C19688800470A28 /* TestViewManager.m */,
+				BCA88C581C196A2F00470A28 /* TestView.h */,
+				BCA88C591C196A2F00470A28 /* TestView.m */,
+				BCA88C5B1C196A4000470A28 /* TestView.xib */,
 			);
 			name = "react native";
 			sourceTree = "<group>";
@@ -714,6 +727,7 @@
 				BC8C65A91C1714B500CBE788 /* PopMaskViewController.xib in Resources */,
 				BC8C65A71C1714AA00CBE788 /* RootViewController.xib in Resources */,
 				BC8C65A81C1714B000CBE788 /* BezierViewController.xib in Resources */,
+				BCA88C5C1C196A4000470A28 /* TestView.xib in Resources */,
 				BC02799A1C15650A0072ED91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -743,7 +757,9 @@
 				BCEE5D8F1C16CBFB002F6750 /* UIView+Util.m in Sources */,
 				BC0279981C15650A0072ED91 /* mirageBox.xcdatamodeld in Sources */,
 				BC8C65A21C170B9F00CBE788 /* PopMaskView.m in Sources */,
+				BCA88C571C19688800470A28 /* TestViewManager.m in Sources */,
 				BCEE5D941C16CF42002F6750 /* PopMaskViewController.m in Sources */,
+				BCA88C5A1C196A2F00470A28 /* TestView.m in Sources */,
 				BC8C65871C16DE8A00CBE788 /* MBUtils.m in Sources */,
 				BC02798F1C15650A0072ED91 /* AppDelegate.m in Sources */,
 				BC02798C1C15650A0072ED91 /* main.m in Sources */,

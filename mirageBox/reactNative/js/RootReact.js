@@ -5,7 +5,6 @@ var {
 	View,
 	Text,
 	StyleSheet,
-  requireNativeComponent,
 } = React;
 
 class RootReact extends React.Component {

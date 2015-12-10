@@ -13,5 +13,7 @@
 #import "UIView+Util.h"
 #import "MBUtils.h"
 #import "RCTRootView.h"
+#import "RCTBridgeModule.h"
+#import "RCTViewManager.h"
 
 #endif /* config_h */

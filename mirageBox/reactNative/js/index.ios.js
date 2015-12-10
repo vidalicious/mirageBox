@@ -6,6 +6,7 @@
 
 var React = require('react-native');
 var RootReact = require('./RootReact');
+var TestNativeUI = require('./TestNativeUI');
 
 var {
   AppRegistry,
@@ -20,17 +21,15 @@ var testReactNative = React.createClass({
     // debugger;
     return (
 
-      <NavigatorIOS
-        style = {styles.navigator}
-        initialRoute = {{
-          title: 'react ~',
-          component: RootReact,
-        }}/>
-      // <View style={styles.container}>
-      //   <Text style={styles.welcome}>
-      //     又回来了
-      //   </Text>
-      // </View>
+      // <NavigatorIOS
+      //   style = {styles.navigator}
+      //   initialRoute = {{
+      //     title: 'react ~',
+      //     component: RootReact,
+      //   }}/>
+      <View style={styles.container}>
+                <TestNativeUI />
+      </View>
     );
   }
 });
@@ -41,7 +40,7 @@ var styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    // backgroundColor: '#F5FCFF',
   },
   welcome: {
     fontSize: 20,
