@@ -5,35 +5,38 @@
 'use strict';
 
 var React = require('react-native');
+var RootReact = require('./RootReact');
+
 var {
   AppRegistry,
   StyleSheet,
   Text,
+  NavigatorIOS, 
   View,
 } = React;
 
 var testReactNative = React.createClass({
   render: function() {
-    debugger;
-    // var
+    // debugger;
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native! hello
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+
+      <NavigatorIOS
+        style = {styles.navigator}
+        initialRoute = {{
+          title: 'react ~',
+          component: RootReact,
+        }}/>
+      // <View style={styles.container}>
+      //   <Text style={styles.welcome}>
+      //     又回来了
+      //   </Text>
+      // </View>
     );
   }
 });
 
 var styles = StyleSheet.create({
+
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -49,6 +52,11 @@ var styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+  },
+  navigator: {
+
+    flex: 1,
+    backgroundColor: '#099fde'
   },
 });
 
