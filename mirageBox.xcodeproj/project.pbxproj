@@ -22,9 +22,16 @@
 		BC8C65A71C1714AA00CBE788 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0279E01C156F4B0072ED91 /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		BC8C65A81C1714B000CBE788 /* BezierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC027A261C15AAC00072ED91 /* BezierViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		BC8C65A91C1714B500CBE788 /* PopMaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEE5D931C16CF42002F6750 /* PopMaskViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BC9EAC931C2173B00068DC76 /* SimpleAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9EAC911C2173B00068DC76 /* SimpleAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC9EAC941C2173B00068DC76 /* SimpleAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9EAC921C2173B00068DC76 /* SimpleAnimationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BC9EAC981C2174D50068DC76 /* SimpleBezierLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9EAC971C2174D50068DC76 /* SimpleBezierLayer.m */; settings = {ASSET_TAGS = (); }; };
 		BCA88C571C19688800470A28 /* TestViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA88C561C19688800470A28 /* TestViewManager.m */; settings = {ASSET_TAGS = (); }; };
 		BCA88C5A1C196A2F00470A28 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA88C591C196A2F00470A28 /* TestView.m */; settings = {ASSET_TAGS = (); }; };
 		BCA88C5C1C196A4000470A28 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA88C5B1C196A4000470A28 /* TestView.xib */; settings = {ASSET_TAGS = (); }; };
+		BCDA75661C23AB1B00D181DB /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDA75641C23AB1B00D181DB /* CollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCDA75671C23AB1B00D181DB /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDA75651C23AB1B00D181DB /* CollectionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BCE18EA11C2269D600B655AB /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE18E9F1C2269D600B655AB /* NotificationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCE18EA21C2269D600B655AB /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE18EA01C2269D600B655AB /* NotificationViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		BCE95FD61C18398E00AC9899 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE95F351C17F4E600AC9899 /* libRCTActionSheet.a */; };
 		BCE95FD71C18398E00AC9899 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE95F3F1C17F59F00AC9899 /* libRCTGeolocation.a */; };
 		BCE95FD81C18398E00AC9899 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE95F4B1C17F5F900AC9899 /* libRCTImage.a */; };
@@ -215,11 +222,22 @@
 		BC8C65A01C170B9F00CBE788 /* PopMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopMaskView.h; path = "recycle code/PopMaskView.h"; sourceTree = "<group>"; };
 		BC8C65A11C170B9F00CBE788 /* PopMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopMaskView.m; path = "recycle code/PopMaskView.m"; sourceTree = "<group>"; };
 		BC8C65A31C170BB800CBE788 /* PopMaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopMaskView.xib; path = "recycle code/PopMaskView.xib"; sourceTree = "<group>"; };
+		BC9EAC901C2173B00068DC76 /* SimpleAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleAnimationViewController.h; path = dynamic/SimpleAnimationViewController.h; sourceTree = "<group>"; };
+		BC9EAC911C2173B00068DC76 /* SimpleAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleAnimationViewController.m; path = dynamic/SimpleAnimationViewController.m; sourceTree = "<group>"; };
+		BC9EAC921C2173B00068DC76 /* SimpleAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SimpleAnimationViewController.xib; path = dynamic/SimpleAnimationViewController.xib; sourceTree = "<group>"; };
+		BC9EAC961C2174D50068DC76 /* SimpleBezierLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleBezierLayer.h; path = static/SimpleBezierLayer.h; sourceTree = "<group>"; };
+		BC9EAC971C2174D50068DC76 /* SimpleBezierLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleBezierLayer.m; path = static/SimpleBezierLayer.m; sourceTree = "<group>"; };
 		BCA88C551C19688800470A28 /* TestViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewManager.h; path = reactNative/TestViewManager.h; sourceTree = "<group>"; };
 		BCA88C561C19688800470A28 /* TestViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewManager.m; path = reactNative/TestViewManager.m; sourceTree = "<group>"; };
 		BCA88C581C196A2F00470A28 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = reactNative/TestView.h; sourceTree = "<group>"; };
 		BCA88C591C196A2F00470A28 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestView.m; path = reactNative/TestView.m; sourceTree = "<group>"; };
 		BCA88C5B1C196A4000470A28 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = reactNative/TestView.xib; sourceTree = "<group>"; };
+		BCDA75631C23AB1B00D181DB /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = foundation/CollectionViewController.h; sourceTree = "<group>"; };
+		BCDA75641C23AB1B00D181DB /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = foundation/CollectionViewController.m; sourceTree = "<group>"; };
+		BCDA75651C23AB1B00D181DB /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewController.xib; path = foundation/CollectionViewController.xib; sourceTree = "<group>"; };
+		BCE18E9E1C2269D600B655AB /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationViewController.h; path = foundation/NotificationViewController.h; sourceTree = "<group>"; };
+		BCE18E9F1C2269D600B655AB /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationViewController.m; path = foundation/NotificationViewController.m; sourceTree = "<group>"; };
+		BCE18EA01C2269D600B655AB /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotificationViewController.xib; path = foundation/NotificationViewController.xib; sourceTree = "<group>"; };
 		BCE95F2A1C17F46B00AC9899 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		BCE95F301C17F4E600AC9899 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
 		BCE95F3A1C17F59F00AC9899 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
@@ -306,6 +324,7 @@
 				BC0279DF1C156F4B0072ED91 /* RootViewController.m */,
 				BC0279E01C156F4B0072ED91 /* RootViewController.xib */,
 				BCEE5D8C1C16CB1A002F6750 /* utils */,
+				BCE18E9C1C22697700B655AB /* foundation */,
 				BC027A241C15902F0072ED91 /* static */,
 				BC027A251C15A77A0072ED91 /* dynamic */,
 				BCE95F9A1C17F9FD00AC9899 /* react native */,
@@ -351,6 +370,8 @@
 				BC027A271C15AAC00072ED91 /* BezierViewController.h */,
 				BC027A281C15AAC00072ED91 /* BezierViewController.m */,
 				BC027A261C15AAC00072ED91 /* BezierViewController.xib */,
+				BC9EAC961C2174D50068DC76 /* SimpleBezierLayer.h */,
+				BC9EAC971C2174D50068DC76 /* SimpleBezierLayer.m */,
 			);
 			name = static;
 			sourceTree = "<group>";
@@ -358,8 +379,24 @@
 		BC027A251C15A77A0072ED91 /* dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				BC9EAC901C2173B00068DC76 /* SimpleAnimationViewController.h */,
+				BC9EAC911C2173B00068DC76 /* SimpleAnimationViewController.m */,
+				BC9EAC921C2173B00068DC76 /* SimpleAnimationViewController.xib */,
 			);
 			name = dynamic;
+			sourceTree = "<group>";
+		};
+		BCE18E9C1C22697700B655AB /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BCE18E9E1C2269D600B655AB /* NotificationViewController.h */,
+				BCE18E9F1C2269D600B655AB /* NotificationViewController.m */,
+				BCE18EA01C2269D600B655AB /* NotificationViewController.xib */,
+				BCDA75631C23AB1B00D181DB /* CollectionViewController.h */,
+				BCDA75641C23AB1B00D181DB /* CollectionViewController.m */,
+				BCDA75651C23AB1B00D181DB /* CollectionViewController.xib */,
+			);
+			name = foundation;
 			sourceTree = "<group>";
 		};
 		BCE95F291C17F43D00AC9899 /* vendors */ = {
@@ -723,10 +760,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC02799D1C15650A0072ED91 /* LaunchScreen.storyboard in Resources */,
+				BC9EAC941C2173B00068DC76 /* SimpleAnimationViewController.xib in Resources */,
 				BC8C65A61C17133100CBE788 /* PopMaskView.xib in Resources */,
 				BC8C65A91C1714B500CBE788 /* PopMaskViewController.xib in Resources */,
 				BC8C65A71C1714AA00CBE788 /* RootViewController.xib in Resources */,
 				BC8C65A81C1714B000CBE788 /* BezierViewController.xib in Resources */,
+				BCDA75671C23AB1B00D181DB /* CollectionViewController.xib in Resources */,
+				BCE18EA21C2269D600B655AB /* NotificationViewController.xib in Resources */,
 				BCA88C5C1C196A4000470A28 /* TestView.xib in Resources */,
 				BC02799A1C15650A0072ED91 /* Assets.xcassets in Resources */,
 			);
@@ -758,8 +798,12 @@
 				BC0279981C15650A0072ED91 /* mirageBox.xcdatamodeld in Sources */,
 				BC8C65A21C170B9F00CBE788 /* PopMaskView.m in Sources */,
 				BCA88C571C19688800470A28 /* TestViewManager.m in Sources */,
+				BC9EAC981C2174D50068DC76 /* SimpleBezierLayer.m in Sources */,
 				BCEE5D941C16CF42002F6750 /* PopMaskViewController.m in Sources */,
+				BCE18EA11C2269D600B655AB /* NotificationViewController.m in Sources */,
+				BCDA75661C23AB1B00D181DB /* CollectionViewController.m in Sources */,
 				BCA88C5A1C196A2F00470A28 /* TestView.m in Sources */,
+				BC9EAC931C2173B00068DC76 /* SimpleAnimationViewController.m in Sources */,
 				BC8C65871C16DE8A00CBE788 /* MBUtils.m in Sources */,
 				BC02798F1C15650A0072ED91 /* AppDelegate.m in Sources */,
 				BC02798C1C15650A0072ED91 /* main.m in Sources */,

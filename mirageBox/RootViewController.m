@@ -9,6 +9,8 @@
 #import "RootViewController.h"
 #import "BezierViewController.h"
 #import "PopMaskViewController.h"
+#import "NotificationViewController.h"
+#import "CollectionViewController.h"
 
 static NSString *tableViewCellIdentifier = @"tableViewCells";
 
@@ -18,6 +20,8 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 @property (nonatomic, strong) BezierViewController *bezierViewControlller;
 @property (nonatomic, strong) PopMaskViewController *popMaskViewController;
 @property (nonatomic, strong) RCTRootView *reactViewController;
+@property (nonatomic, strong) NotificationViewController *notificationViewController;
+@property (nonatomic, strong) CollectionViewController *collectionViewController;
 
 @end
 
@@ -57,7 +61,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 
-    return 4;
+    return 5;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -71,7 +75,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
         
         case 1:
             
-            return 1;
+            return 3;
             break;
             
         case 2:
@@ -80,6 +84,11 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
             break;
             
         case 3:
+            
+            return 1;
+            break;
+            
+        case 4:
             
             return 1;
             break;
@@ -97,7 +106,6 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
     cell.backgroundColor = [UIColor clearColor];
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(15, 0, cell.bounds.size.width - 30, cell.bounds.size.height)];
     label.textColor = [UIColor whiteColor];
-    label.text = [NSString stringWithFormat:@"example %d", (int)indexPath.row];
     
     NSInteger indexPathCode = indexPath.section * 100 + indexPath.row;
     
@@ -105,23 +113,41 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
         
         case 0: {
         
-            label.text = @"Bezier";
+            label.text = @"notification";
         }
             break;
             
         case 100: {
         
-            label.text = @"hello animate";
+            label.text = @"kvo & kvc";
+        }
+            break;
+            
+        case 101: {
+        
+            label.text = @"runtime";
+        }
+            break;
+            
+        case 102: {
+        
+            label.text = @"block";
         }
             break;
             
         case 200: {
         
-            label.text = @"go React-Native";
+            label.text = @"collectionView";
         }
             break;
         
         case 300: {
+        
+            label.text = @"go React-Native";
+        }
+            break;
+            
+        case 400: {
         
             label.text = @"Pop & Mask";
         }
@@ -145,20 +171,25 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
             
         case 0:
             
-            titleLabel.text = @"STILL LIFE";
+            titleLabel.text = @"FOUNDATION";
             break;
             
         case 1:
             
-            titleLabel.text = @"ANIMATION";
+            titleLabel.text = @"BLACK TECH";
+            break;
+        
+        case 2:
+            
+            titleLabel.text = @"VISION";
             break;
             
-        case 2:
+        case 3:
             
             titleLabel.text = @"REACT-NATIVE";
             break;
         
-        case 3:
+        case 4:
             
             titleLabel.text = @"RECYCLE FRAME";
             break;
@@ -185,22 +216,33 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
             
         case 0: {
             
-            if (!self.bezierViewControlller) {
+            if (!self.notificationViewController) {
                 
-                self.bezierViewControlller = [BezierViewController new];
+                self.notificationViewController = [NotificationViewController new];
             }
             
-            [self.navigationController pushViewController:self.bezierViewControlller animated:YES];
+            [self.navigationController pushViewController:self.notificationViewController animated:YES];
         }
             break;
         
         case 200: {
                 
+            if (!self.collectionViewController) {
+                
+                self.collectionViewController = [CollectionViewController new];
+            }
+            
+            [self.navigationController pushViewController:self.collectionViewController animated:YES];
+        }
+            break;
+            
+        case 300: {
+        
             NSURL *jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/mirageBox/reactNative/js/index.ios.bundle?platform=ios&dev=true"];
             RCTRootView *reactView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                                   moduleName:@"testReactNative"
-                                                            initialProperties:nil
-                                                                launchOptions:nil];
+                                                                 moduleName:@"testReactNative"
+                                                          initialProperties:nil
+                                                              launchOptions:nil];
             UIViewController *viewController = [UIViewController new];
             viewController.view = reactView;
             
@@ -208,14 +250,15 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
         }
             break;
             
-        case 300: {
+        case 400: {
         
             if (!self.popMaskViewController) {
-            
+                
                 self.popMaskViewController = [PopMaskViewController new];
             }
             
             [self.navigationController pushViewController:self.popMaskViewController animated:YES];
+
         }
             break;
             
