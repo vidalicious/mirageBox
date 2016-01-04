@@ -11,6 +11,7 @@
 #import "PopMaskViewController.h"
 #import "NotificationViewController.h"
 #import "CollectionViewController.h"
+#import "TransitionViewController.h"
 
 static NSString *tableViewCellIdentifier = @"tableViewCells";
 
@@ -22,6 +23,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 @property (nonatomic, strong) RCTRootView *reactViewController;
 @property (nonatomic, strong) NotificationViewController *notificationViewController;
 @property (nonatomic, strong) CollectionViewController *collectionViewController;
+@property (nonatomic, strong) TransitionViewController *transitionViewController;
 
 @end
 
@@ -60,7 +62,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
+    
     return 5;
 }
 
@@ -80,7 +82,7 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
             
         case 2:
             
-            return 1;
+            return 2;
             break;
             
         case 3:
@@ -138,6 +140,12 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
         case 200: {
         
             label.text = @"collectionView";
+        }
+            break;
+            
+        case 201: {
+        
+            label.text = @"transition";
         }
             break;
         
@@ -233,6 +241,17 @@ static NSString *tableViewCellIdentifier = @"tableViewCells";
             }
             
             [self.navigationController pushViewController:self.collectionViewController animated:YES];
+        }
+            break;
+            
+        case 201: {
+        
+            if (!self.transitionViewController) {
+                
+                self.transitionViewController = [TransitionViewController new];
+            }
+            
+            [self.navigationController pushViewController:self.transitionViewController animated:YES];
         }
             break;
             

@@ -30,6 +30,10 @@
 		BCA88C5C1C196A4000470A28 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA88C5B1C196A4000470A28 /* TestView.xib */; settings = {ASSET_TAGS = (); }; };
 		BCDA75661C23AB1B00D181DB /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDA75641C23AB1B00D181DB /* CollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BCDA75671C23AB1B00D181DB /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDA75651C23AB1B00D181DB /* CollectionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BCDAFD7D1C3A1E0000BA68DB /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAFD7C1C3A1E0000BA68DB /* TransitionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCDAFD811C3A1E1500BA68DB /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAFD801C3A1E1500BA68DB /* ModalViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCDAFD831C3A1F9100BA68DB /* TransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDAFD821C3A1F9100BA68DB /* TransitionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BCDAFD851C3A1FF800BA68DB /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDAFD841C3A1FF800BA68DB /* ModalViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		BCE18EA11C2269D600B655AB /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE18E9F1C2269D600B655AB /* NotificationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BCE18EA21C2269D600B655AB /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE18EA01C2269D600B655AB /* NotificationViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		BCE95FD61C18398E00AC9899 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE95F351C17F4E600AC9899 /* libRCTActionSheet.a */; };
@@ -235,6 +239,12 @@
 		BCDA75631C23AB1B00D181DB /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = foundation/CollectionViewController.h; sourceTree = "<group>"; };
 		BCDA75641C23AB1B00D181DB /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = foundation/CollectionViewController.m; sourceTree = "<group>"; };
 		BCDA75651C23AB1B00D181DB /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewController.xib; path = foundation/CollectionViewController.xib; sourceTree = "<group>"; };
+		BCDAFD7B1C3A1E0000BA68DB /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionViewController.h; path = dynamic/TransitionViewController.h; sourceTree = "<group>"; };
+		BCDAFD7C1C3A1E0000BA68DB /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionViewController.m; path = dynamic/TransitionViewController.m; sourceTree = "<group>"; };
+		BCDAFD7F1C3A1E1500BA68DB /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalViewController.h; path = dynamic/ModalViewController.h; sourceTree = "<group>"; };
+		BCDAFD801C3A1E1500BA68DB /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalViewController.m; path = dynamic/ModalViewController.m; sourceTree = "<group>"; };
+		BCDAFD821C3A1F9100BA68DB /* TransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TransitionViewController.xib; path = dynamic/TransitionViewController.xib; sourceTree = "<group>"; };
+		BCDAFD841C3A1FF800BA68DB /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModalViewController.xib; path = dynamic/ModalViewController.xib; sourceTree = "<group>"; };
 		BCE18E9E1C2269D600B655AB /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationViewController.h; path = foundation/NotificationViewController.h; sourceTree = "<group>"; };
 		BCE18E9F1C2269D600B655AB /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationViewController.m; path = foundation/NotificationViewController.m; sourceTree = "<group>"; };
 		BCE18EA01C2269D600B655AB /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotificationViewController.xib; path = foundation/NotificationViewController.xib; sourceTree = "<group>"; };
@@ -382,6 +392,12 @@
 				BC9EAC901C2173B00068DC76 /* SimpleAnimationViewController.h */,
 				BC9EAC911C2173B00068DC76 /* SimpleAnimationViewController.m */,
 				BC9EAC921C2173B00068DC76 /* SimpleAnimationViewController.xib */,
+				BCDAFD7B1C3A1E0000BA68DB /* TransitionViewController.h */,
+				BCDAFD7C1C3A1E0000BA68DB /* TransitionViewController.m */,
+				BCDAFD821C3A1F9100BA68DB /* TransitionViewController.xib */,
+				BCDAFD7F1C3A1E1500BA68DB /* ModalViewController.h */,
+				BCDAFD801C3A1E1500BA68DB /* ModalViewController.m */,
+				BCDAFD841C3A1FF800BA68DB /* ModalViewController.xib */,
 			);
 			name = dynamic;
 			sourceTree = "<group>";
@@ -762,10 +778,12 @@
 				BC02799D1C15650A0072ED91 /* LaunchScreen.storyboard in Resources */,
 				BC9EAC941C2173B00068DC76 /* SimpleAnimationViewController.xib in Resources */,
 				BC8C65A61C17133100CBE788 /* PopMaskView.xib in Resources */,
+				BCDAFD831C3A1F9100BA68DB /* TransitionViewController.xib in Resources */,
 				BC8C65A91C1714B500CBE788 /* PopMaskViewController.xib in Resources */,
 				BC8C65A71C1714AA00CBE788 /* RootViewController.xib in Resources */,
 				BC8C65A81C1714B000CBE788 /* BezierViewController.xib in Resources */,
 				BCDA75671C23AB1B00D181DB /* CollectionViewController.xib in Resources */,
+				BCDAFD851C3A1FF800BA68DB /* ModalViewController.xib in Resources */,
 				BCE18EA21C2269D600B655AB /* NotificationViewController.xib in Resources */,
 				BCA88C5C1C196A4000470A28 /* TestView.xib in Resources */,
 				BC02799A1C15650A0072ED91 /* Assets.xcassets in Resources */,
@@ -802,12 +820,14 @@
 				BCEE5D941C16CF42002F6750 /* PopMaskViewController.m in Sources */,
 				BCE18EA11C2269D600B655AB /* NotificationViewController.m in Sources */,
 				BCDA75661C23AB1B00D181DB /* CollectionViewController.m in Sources */,
+				BCDAFD811C3A1E1500BA68DB /* ModalViewController.m in Sources */,
 				BCA88C5A1C196A2F00470A28 /* TestView.m in Sources */,
 				BC9EAC931C2173B00068DC76 /* SimpleAnimationViewController.m in Sources */,
 				BC8C65871C16DE8A00CBE788 /* MBUtils.m in Sources */,
 				BC02798F1C15650A0072ED91 /* AppDelegate.m in Sources */,
 				BC02798C1C15650A0072ED91 /* main.m in Sources */,
 				BC0279E11C156F4B0072ED91 /* RootViewController.m in Sources */,
+				BCDAFD7D1C3A1E0000BA68DB /* TransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
